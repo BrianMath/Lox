@@ -1,0 +1,17 @@
+/*
+	Macacos feios
+	sem cu
+		eca
+*/
+
+class Roblox() {
+	var CEO = "Robert Lox"
+
+	fun play() {
+		print "Vamos jogar"
+
+		return 1
+	}
+}
+
+var um = Roblox.play()
