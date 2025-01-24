@@ -114,7 +114,9 @@ class Scanner {
 				// Número literal
 				if (isDigit(c)) {
 					number();
-				} else if (isAlpha(c)) {
+				}
+				// Identificadores 
+				else if (isAlpha(c)) {
 					identifier();
 				} else {
 					Lox.error(line, "Unexpected character");
