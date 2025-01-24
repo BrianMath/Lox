@@ -7,8 +7,8 @@ Serão desenvolvidos dois interpretadores/compiladores para Lox, uma linguagem c
 ## Jlox (tree walk interpreter)
 Interpretador mais simples feito em Java com a intenção de aprender os conceitos. Foco em ser **correto**.
 - ✅ Scanner para análise léxica
-- ⬜️ Definição da representação intermediária (IR) como uma AST
-- ⬜️ ...
+- ✅ Definição da representação intermediária (IR) como uma AST
+- ⬜️ Parser de expressões (analisador sintático)
 
 ## Clox (bytecode virtual machine)
 Interpretador mais complexo feito em C com a intenção de aprender como uma implementação realmente funciona. Foco em ser **rápido**.
